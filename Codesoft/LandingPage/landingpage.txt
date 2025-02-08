@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bike Showroom</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #2c3e50;
+    color: #fff; 
+}
+
+.section {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #34495e; 
+    color: #fff; 
+    border-bottom: 1px solid #2c3e50; 
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.section .bike-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.section .bike {
+    flex: 1 1 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #a7d0db; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section .bike img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.section .bike h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.section .bike p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.section .offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e74c3c; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section .offer img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.section .offer-details {
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+</style>
+</head>
+<body>
+
+<div class="landing-page">
+    <header>
+        <h1>KARTHI BIKE GARAGE</h1>
+        <p>Explore our latest models and special offers below</p>
+    </header>
+    
+    <section id="section1" class="section">
+        <h2>Mountain Bikes</h2>
+        <div class="bike-container">
+            <div class="bike">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.kR5SeU4CBOHMvHiZH330_wHaEK&pid=Api&P=0&h=180" alt="Mountain Bike 1">
+                <h3>X-PULSE</h3>
+                <p>Discover the thrill of off-road adventures with our top-rated mountain bikes.</p>
+            </div>
+            <div class="bike">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.xHLIN9N4RcwW311hEkWIqgHaFF&pid=Api&P=0&h=180" alt="Mountain Bike 2">
+                <h3>HIMALAYAN</h3>
+                <p>Explore rugged terrains with our high-performance mountain bikes designed for enthusiasts.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section2" class="section">
+        <h2>Road Bikes</h2>
+        <div class="bike-container">
+            <div class="bike">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.V_lv_RUCRvBo03cZ5BkxRgHaEw&pid=Api&P=0&h=180" alt="Road Bike 1">
+                <h3>SPLENDOR</h3>
+                <p>Speed and style meet in our sleek road bikes, perfect for urban commuting or long-distance rides.</p>
+            </div>
+            <div class="bike">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.CrZV_hLoJ3rQBFL5LVVrfwHaE6&pid=Api&P=0&h=180" alt="Road Bike 2">
+                <h3>HONDA SHINE</h3>
+                <p>Experience the joy of cycling with our lightweight and aerodynamic road bikes.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section3" class="section">
+        <h2>Special Offers</h2>
+        <div class="offer">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.fOZGfzVY5XAT7W3jNuCo4gHaF7&pid=Api&P=0&h=180" alt="Special Offer">
+            <div class="offer-details">
+                <h3>Exclusive Discount</h3>
+                <p>Get 20% off on selected bikes. Limited time offer!</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
